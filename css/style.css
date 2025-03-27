@@ -1,0 +1,144 @@
+/* --- RESET DAN STYLE DASAR --- */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+/* --- HEADER --- */
+header {
+    background: grey;
+    color: bisque;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* --- CONTAINER KONTEN --- */
+.container {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-size: 22px;
+}
+
+.container img {
+    width: 80%;
+    max-width: 150px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* --- BUTTON STYLE --- */
+button {
+    background: grey;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 45%;
+    font-size: 16px;
+}
+
+button:hover {
+    background: gainsboro;
+}
+
+/* --- HASIL PERHITUNGAN --- */
+#hasilLuas, #hasilKeliling {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* --- FOOTER --- */
+footer {
+    background: #343a40;
+    color: bisque;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* --- RESPONSIVE DESIGN --- */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    .container h2 {
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
