@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kaltik - Kalkulator Matematika</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
 </head>
 <body>
-    
+
+    <!-- Header -->
+    <header>
+        <h1>Kaltik - Kalkulator Matematika</h1>
+        <p>Website sederhana untuk menghitung luas dan keliling persegi</p>
+        <p>Selamat mencoba, semoga bisa membantu😊</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="container">
+            <h2>Luas Persegi</h2>
+            <img src="../17-mar-25-Nurw-code/asset/persegi.png" alt="Gambar Persegi" width="150">
+            <p>Rumus: L = S × S</p>
+            <label for="sisiLuas">Masukkan Nilai Sisi:</label>
+            <input type="number" id="sisiLuas">
+            <button onclick="hitungLuas()">Hitung</button>
+            <button onclick="resetLuas()">Reset</button>
+            <div id="hasilLuas"></div>
+        </section>
+
+        <section class="container">
+            <h2>Keliling Persegi</h2>
+            <img src="../17-mar-25-Nurw-code/asset/persegi.png" alt="Gambar Persegi" width="150">
+            <p>Rumus: K = 4 × S</p>
+            <label for="sisiKeliling">Masukkan Nilai Sisi:</label>
+            <input type="number" id="sisiKeliling">
+            <button onclick="hitungKeliling()">Hitung</button>
+            <button onclick="resetKeliling()">Reset</button>
+            <div id="hasilKeliling"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p> Terima kasih sudah berkunjung🥰</p>
+        <p>&copy; Copyright by Nurw</p>
+    </footer>
+
 </body>
 </html>
